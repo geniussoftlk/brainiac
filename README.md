@@ -1,4 +1,3 @@
-[![GitHub issues](https://img.shields.io/github/issues/geniussoftlk/brainiac.svg?style=flat-square)](https://github.com/geniussoftlk/brainiac/issues)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/geniussoftlk/brainiac.svg?style=social?style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 
 
