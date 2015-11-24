@@ -53,7 +53,7 @@ public class BrainiacTest {
     @Test
     public void testGetDropBoxPath() throws Exception {
         System.out.println("getDropBoxPath");
-        String expResult = "\"C:\\\\Dropbox\""; // Your Dropbox folder location
+        String expResult = "C:\\Dropbox"; // Your Dropbox folder location
         String result = Brainiac.getDropBoxPath();
         assertEquals(expResult, result);
     }
