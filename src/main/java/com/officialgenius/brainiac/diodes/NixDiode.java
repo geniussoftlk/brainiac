@@ -36,7 +36,7 @@ public class NixDiode implements Diodable {
         BufferedReader br = Files.newBufferedReader(pathToDropBox, Charset.forName("UTF-8"));
         JsonReader jsonReader = new JsonReader(br);
         JsonObject infoJson = gson.fromJson(jsonReader, JsonObject.class);
-        return infoJson.getAsJsonObject("personal").get("path").toString();
+        return infoJson.getAsJsonObject("personal").get("path").getAsString();
 
     }
 
