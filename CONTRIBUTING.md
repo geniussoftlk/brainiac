@@ -19,8 +19,9 @@ and then have to rewrite half of it!
 
 There are many ways you can contribute to the Brainiac project:
 
-* **Fix a bug** or **implement a new feature** - read on below.
+* **Fix a bug** or **implement a new feature**
 * **Write unit tests** for Brainiac.
+* **Automate testing** with a CI.
 * **Write documentation** and help keep it up to date
 
 
