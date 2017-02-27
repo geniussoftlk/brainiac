@@ -32,7 +32,7 @@ public class NixDiode implements Diodable {
     @Override
     public String getDropBoxPath() throws IOException {
         Gson gson = new Gson();
-        Path pathToDropBox = Paths.get(NIX_DROPBOX_INFO_PATH);
+        Path pathToDropBox = Paths.get(NIX_DROPBOX_INFO_PATH.replaceFirst("^~", System.getProperty("user.home")));
         BufferedReader br = Files.newBufferedReader(pathToDropBox, Charset.forName("UTF-8"));
         JsonReader jsonReader = new JsonReader(br);
         JsonObject infoJson = gson.fromJson(jsonReader, JsonObject.class);
